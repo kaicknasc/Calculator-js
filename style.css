@@ -19,6 +19,10 @@ body {
     /* Max-Height */
 }
 
+main {
+    max-width: 1440px;
+}
+
 h1 {
     font-size: 18pt;
     font-weight: 300;
@@ -125,4 +129,11 @@ button:hover {
     /* Grids */
     height: 100%;
     /* Height */
+}
+
+@media (max-width: 768px) {
+
+    .calculator {
+        width: 100%;
+    }
 }
